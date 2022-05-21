@@ -7,7 +7,7 @@ Se requiere administrar hospitales del país. Por cada entidad hospitalaria se n
 
 Considerandos:
 
-* La ciudad del hospital deberá se una entidad que tenga como características: nombre de la ciudad, provincia de la ciudad.
+* La ciudad del hospital deberá ser una entidad que tenga como características: nombre de la ciudad, provincia de la ciudad.
 * Un médico se lo considera con atributos como: nombre del doctor, especialidad, sueldo mensual.
 * Un efermero o enfermera tiene las siguientes características: nombre, tipo (nombramiento, contrato) y sueldo mensual.
 * El sueldo total a cancelar es igual a la suma de los sueldos del conjunto de médicos y enfermeros(as) que forman parte de su personal.
