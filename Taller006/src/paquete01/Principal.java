@@ -7,7 +7,7 @@ package paquete01;
 import java.util.Scanner;
 import paquete02.CiudadHospital;
 import paquete02.Enfermero_a;
-import paquete02.Hospital;
+import paquete02.EntidadHospitalaria;
 import paquete02.Medico;
 
 /**
@@ -99,7 +99,7 @@ public class Principal {
             enfermerosHospital[i] = e1;
         }
 
-        Hospital hospital = new Hospital(nombreHospital, direccion, nEspecialidades, medicosHospital, enfermerosHospital);
+        EntidadHospitalaria hospital = new EntidadHospitalaria(nombreHospital, direccion, nEspecialidades, medicosHospital, enfermerosHospital);
 
         hospital.establecerSueldoTotalPorMes();
 

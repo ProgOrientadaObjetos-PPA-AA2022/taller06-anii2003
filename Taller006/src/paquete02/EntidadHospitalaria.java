@@ -8,7 +8,7 @@ package paquete02;
  *
  * @author DELL
  */
-public class Hospital {
+public class EntidadHospitalaria {
 
     private String nombreHospital;
     private CiudadHospital localizacionH;
@@ -18,7 +18,7 @@ public class Hospital {
     private Enfermero_a[] enfermeros;
     private double totalSueldoPorMes;
 
-    public Hospital(String n, String d, int e, Medico[] m, Enfermero_a[] enf) {
+    public EntidadHospitalaria(String n, String d, int e, Medico[] m, Enfermero_a[] enf) {
         nombreHospital = n;
         direccion = d;
         CiudadHospital c1 = new CiudadHospital("Zaruma", "El Oro");
